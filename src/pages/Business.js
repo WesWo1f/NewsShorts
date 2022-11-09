@@ -6,16 +6,16 @@ import incrementCount from '../action/incrementCount'
 import React, {useState, useEffect } from "react"
 export default function Business() {
   const  [titleOne, setTitleOne] = useState([])
-  const  [imageUrlOne, setImageUrlOne] = useState([])
-  const  [contentOne, setContentOne] = useState([])
+  const  [imageUrlOne, setImageUrlOne] = useState(["https://t3.ftcdn.net/jpg/03/13/47/42/360_F_313474291_fYVBZplE4eSbjyEllrnbecOBE6sBnyLJ.jpg"])
+  const  [contentOne, setContentOne] = useState(["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."])
 
   const  [titleTwo, setTitleTwo] = useState([])
-  const  [imageUrlTwo, setImageUrlTwo] = useState([])
-  const  [contentTwo, setContentTwo] = useState([])
+  const  [imageUrlTwo, setImageUrlTwo] = useState(["https://t3.ftcdn.net/jpg/03/13/47/42/360_F_313474291_fYVBZplE4eSbjyEllrnbecOBE6sBnyLJ.jpg"])
+  const  [contentTwo, setContentTwo] = useState(["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."])
 
   const  [titleThree, setTitleThree] = useState([])
-  const  [imageUrlThree, setImageUrlThree] = useState([])
-  const  [contentThree, setContentThree] = useState([])
+  const  [imageUrlThree, setImageUrlThree] = useState(["https://t3.ftcdn.net/jpg/03/13/47/42/360_F_313474291_fYVBZplE4eSbjyEllrnbecOBE6sBnyLJ.jpg"])
+  const  [contentThree, setContentThree] = useState(["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."])
 
   const dispatch = useDispatch()
   const count = useSelector(state => state.count) //this count is mapped from the global state

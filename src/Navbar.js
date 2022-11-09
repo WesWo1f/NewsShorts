@@ -3,6 +3,7 @@ import { Link, useMatch, useResolvedPath } from
 
 export default function Navbar() {
     return ( 
+        <>
     <nav className="nav">
         <Link to="/"className="site-title">
             News Shorts
@@ -18,9 +19,10 @@ export default function Navbar() {
             <CustomLink to="/science">Science</CustomLink>
             <CustomLink to="/automobile">Automobile</CustomLink>
             <CustomLink to="/entertainment">Entertainment</CustomLink>
-            <CustomLink to="/buyMeCoffee">BuyMeCoffee</CustomLink>
+            {/* <CustomLink to="/buyMeCoffee">BuyMeCoffee</CustomLink> */}
         </ul>
     </nav>
+    </>
     )
 }
 

@@ -11,16 +11,16 @@ import Startup from "./pages/Startup";
 import Miscellaneous from "./pages/Miscellaneous";
 import Science from "./pages/Science";
 import BuyMeCoffee from "./pages/BuyMeCoffee";
+import Footer from "./pages/Footer";
 import { Route, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
-
   return (
     <>
+    <div className="fullAppWrapper">
     <Navbar />
     <div className="container">
       <Routes>
-
         <Route path="/" element={<Home />} />
         <Route path="/allNews" element={<AllNews />} />
         <Route path="/business" element={<Business />} />
@@ -32,12 +32,13 @@ function App() {
         <Route path="/science" element={<Science />} />
         <Route path="/automobile" element={<Automobile />} />
         <Route path="/entertainment" element={<Entertainment />} />
-        {/* <Route path="/pricing" element={<Pricing />} /> */}
-        <Route path="/buyMeCoffee" element={<BuyMeCoffee />} />
       </Routes>
     </div>
+    <div className="myFooter">
+    <Footer />
+    </div>
+    </div>
     </>
-
   )
 }
 

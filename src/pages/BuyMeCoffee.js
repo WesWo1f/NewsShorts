@@ -3,7 +3,7 @@
 
 import React from "react";
 import { useEffect } from "react";
-
+ //   https://www.buymeacoffee.com/claudewfouN
 const BuyMeCoffee = () => {
   // const
   useEffect(() => {
@@ -15,11 +15,11 @@ const BuyMeCoffee = () => {
     );
     script.setAttribute("data-name", "BMC-Widget");
     script.setAttribute("data-cfasync", "false");
-    script.setAttribute("data-id", "jordanboardman");
+    script.setAttribute("data-id", "Wes Fountain");
     script.setAttribute("data-description", "Support me on Buy me a coffee!");
     script.setAttribute(
       "data-message",
-      "Made with love by Jordan Boardman. Thanks for using Spirit Guide for all of your mixing needs! I hope you found it as useful as I have. Feel free to buy me a coffee (or better yet, an Old-Fashioned). Cheers!"
+      "Hey, thanks for stopping by! If you want to buy me a coffee, feel free. If not, no worries."
     );
     script.setAttribute("data-color", "#FF813F");
     script.setAttribute("data-position", "Right");
