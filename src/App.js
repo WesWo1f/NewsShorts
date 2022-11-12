@@ -10,14 +10,13 @@ import Automobile from "./pages/Automobile";
 import Startup from "./pages/Startup";
 import Miscellaneous from "./pages/Miscellaneous";
 import Science from "./pages/Science";
-import BuyMeCoffee from "./pages/BuyMeCoffee";
+//import BuyMeCoffee from "./pages/BuyMeCoffee";
 import Footer from "./pages/Footer";
 import { Route, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <>
-    <div className="fullAppWrapper">
     <Navbar />
     <div className="container">
       <Routes>
@@ -33,10 +32,6 @@ function App() {
         <Route path="/automobile" element={<Automobile />} />
         <Route path="/entertainment" element={<Entertainment />} />
       </Routes>
-    </div>
-    <div className="myFooter">
-    <Footer />
-    </div>
     </div>
     </>
   )

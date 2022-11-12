@@ -19,7 +19,6 @@ export default function Navbar() {
             <CustomLink to="/science">Science</CustomLink>
             <CustomLink to="/automobile">Automobile</CustomLink>
             <CustomLink to="/entertainment">Entertainment</CustomLink>
-            {/* <CustomLink to="/buyMeCoffee">BuyMeCoffee</CustomLink> */}
         </ul>
     </nav>
     </>
