@@ -45,7 +45,7 @@ export default function Entertainment() {
       <div className="flexbox-item flexbox-item-1">
         <div className='image-Container'>
           <img src={imageUrlOne} className='card-image'  alt=""></img>
-        </div>
+      </div>
         <h3>{titleOne}</h3>
         <p>{contentOne}</p>
         </div>
@@ -55,7 +55,7 @@ export default function Entertainment() {
         </div>
       <h3>{titleTwo}</h3>
         <p>{contentTwo}</p>
-        </div>
+    </div>
       <div className="flexbox-item flexbox-item-3">
       <div className='image-Container'>
       <img src={imageUrlThree} className='card-image' alt=""></img>
